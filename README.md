@@ -1,6 +1,6 @@
-# AdminLTE-AspNet-MVC-1N
+# AdminLTE-AspNet-MVC-1N-MySQL
 
-Exemplo de utilização do AdminLte com criação de formulário de Usuário e Registro da Conta em MVC com banco de dados Mysql acessando por dicionário de dados, utilizando AdminLTE
+Exemplo de utilização do AdminLte com criação de formulário de Usuário e Registro da Conta em MVC com banco de dados MySQL acessando por dicionário de dados, utilizando AdminLTE
 
 * Template Responsivo AdminLTE 3.2 - rc
 
