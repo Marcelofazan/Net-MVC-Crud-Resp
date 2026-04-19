@@ -99,7 +99,9 @@ namespace ERPSimplesLTE.Repositorio
                         for (var i = 0; i < reader.FieldCount; i++)
                         {
                             var nomeDaColuna = reader.GetName(i);
-                            var valorDaColuna = reader.IsDBNull(i) ? null : reader.GetString(i);
+                            var valorDaColuna = string.Empty;
+                            valorDaColuna = reader.IsDBNull(i) ? null : reader.GetValue(i).ToString();
+                            
                             linha.Add(nomeDaColuna, valorDaColuna);
                         }
                         linhas.Add(linha);
