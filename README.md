@@ -27,7 +27,7 @@ Ficara com a seguinte estrutura:
      |---------plugins
 ```
 
-# O que você vai encontrar neste projeto
+## O que você vai encontrar neste projeto
 
 - **AdminLTE** - Layout Responsivo JavaScript e uso de bibliotecas (Plugins). 
 - **Dicionário de Dados** - Contexto definido realizado manualmente com T-SQL.
@@ -37,7 +37,7 @@ Ficara com a seguinte estrutura:
 
 Para executar a aplicação é necessário a execução do Script do MySql. 
 
-## String de conexão do banco
+### String de conexão do banco
 
 Modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
 
@@ -50,7 +50,7 @@ Modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
 
 O script para criação da tabela do exemplo encontra-se na pasta **Database**.
 
-### Aqui está uma demonstração do projeto:
+#### Aqui está uma demonstração do projeto:
 
 <img width="1339" height="612" alt="CRUD-AspNet-1-N-AdminLTE" src="https://github.com/user-attachments/assets/5e51fc89-102f-4532-8472-ee729953bac1" />
 
